@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+body{
+   background-image: url(https://thumbs.dreamstime.com/b/la-estela-de-vapor-grande-del-aeropuerto-aviaci%C3%B3n-dos-motores-los-aviones-blancos-se-nubla-125717420.jpg);
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 100vw 100vh;
+   font-family: 'Roboto Slab', serif;
+   letter-spacing: -0.8px;
+   margin: 0;
+}
+
+.container{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    top: 100px;
+    left: 400px;
+    border: 3px solid transparent;
+    border-radius: 8px;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-right: 30px;
+    box-shadow: 0px 5px 10px 2px rgba(62, 72, 207, 0.72);
+    background-color: rgba(28, 35, 129, 0.72);   
+}
+
+.title-1{
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.title-2{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 40px;
+    color: #fa1651;
+}
+
+.formulario{
+    width: 350px;
+    height: 130px;
+    margin: auto;
+}
+
+
+input{
+    width: 320px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+}
+
+
+label{
+    color: white;
+}
+
+
+button{
+    position: absolute;
+    background-color:  rgb(240, 43, 43);
+    border:  rgb(226, 70, 70);
+    border-radius: 5px;
+    width: 300px;
+    height: 35px;
+    font-size: large;
+    color: white;
+    top: 350px;
+    left: 50px;
+}
+
+.link{
+    position: absolute;
+    top: 400px;
+    left: 130px;
+}
+
+.link-2{
+    font-size: 20px;
+    color: rgb(175, 172, 172);
+    text-decoration: none;
+}
+
+
